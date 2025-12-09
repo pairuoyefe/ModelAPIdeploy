@@ -16,7 +16,7 @@ app = FastAPI(title="Sentiment API")
 with open(r"ReviewModel4.pkl", "rb") as f:
     model = pickle.load(f)
 
-with open(r"tfidf_vectorizer (1).pkl", "rb") as f:
+with open(r"tfidf_vectorizer.pkl", "rb") as f:
     vectorizer = pickle.load(f)
 
 # -------------------------
